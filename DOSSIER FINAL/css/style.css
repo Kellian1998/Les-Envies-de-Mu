@@ -1,0 +1,650 @@
+body{
+    font-family: 'Roboto-Thin';
+}
+
+@font-face{
+    font-family: 'Inkland';
+    src: url('../font/Inkland.ttf');
+}
+
+@font-face{
+    font-family: 'Roboto-Thin';
+    src: url('../font/Roboto-Thin.ttf');
+}
+
+.hg{
+    background-color:transparent;
+}
+
+.hd{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nbp{
+    background-color:transparent;
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    background-image:url(../img/logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:230px;
+    display: flex;
+}
+
+.form-control{
+    height:32px;
+    width:250px;
+    border-color:grey;
+}
+
+#facebook{
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#instagram{
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+    display: flex;
+    margin-left:px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    width:98%;
+    height:60px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #E3E3E3;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    margin:10px auto 30px auto;
+}
+
+.dbut{
+    background-color:transparent;
+    width:auto;
+    height:55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 10px 0px 10px; 
+    font-family: Roboto-Thin;
+    font-size: 20px;
+}
+
+.dbut:hover{
+    text-shadow: 1px 1px 2px #83586C;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+#carouselExampleIndicators{
+    width:98%;
+    margin:0 auto;
+    border-width: 2px;
+    border-radius:10px;
+    position: relative;
+}
+img{
+    border-radius:10px;
+}
+
+.carousel-indicators{
+    background-color: rgba(255, 255, 255, 0.7);
+    width:100%;
+    height:70px;
+    margin-left:0;
+    margin-bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+}
+.description{
+    background-color: rgba(131, 88, 108, 0.05);
+    border: 1px solid rgba(131, 88, 108, 0.05);
+    border-radius: 10px;
+    width: 98%;
+    height: 450px;
+    display: flex;
+    margin: 30px auto;
+}
+.pdp{
+    width: 39%;
+    display: flex;
+    justify-content: flex-end;
+}
+#pdppresent{
+    background-image: url(../img/pdp.jpg);
+    background-size: cover;
+    width:500px;
+    height:430px;
+    display: flex;
+    align-self: center;
+    border-radius:0px;
+}
+.boxpresent{
+    display: flex;
+    flex-direction: column;
+}
+.margetitre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 8%;
+}
+.boxtitrepresent{
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    margin-bottom:30px;
+}
+.titrepresent{
+    display: flex;
+    font-family: Inkland;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin-bottom:25px;
+}
+
+.textpresent{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: justify;
+    width: auto;
+    padding-left:15px;
+}
+#present{
+    display: flex;
+    align-self: center;
+}
+#footer{
+    background-color: rgba(131, 88, 108, 0.05);
+    border-radius: 10px;
+    display: flex;
+    width:98%;
+    margin:0 auto;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#text{
+    font-family: "Roboto-Thin";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#button{
+    font-family: "Roboto-Thin";
+    display: flex;
+    flex-direction: column;
+    padding:12px;
+}
+
+.cgu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 35%;
+}
+.buttonfooter{
+    display: block;
+    border: none;
+    background-color: inherit;
+    padding: 4px;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+    height: 226px;
+    padding:10px;
+}
+.fbinsta{
+    display: flex;
+    align-self: flex-end;
+    margin: 5px;
+    width: 30%;
+    height: 20%;
+}
+.fb{
+    padding: 10px;
+}
+.insta{
+    padding: 10px;
+}
+.cont{
+    display: flex;
+    align-self: flex-end;
+    padding: 10px;
+    width: 60%;
+    height: 15%;
+}
+.form-control{
+    display: flex;
+    height:32px;
+    width:250px;
+    border-color:grey;
+}
+
+.alaune{
+    background-color:rgba(131, 88, 108, 0.05);
+    width:98%;
+    height:auto;
+    margin: 0 auto;
+    border: 1px solid rgba(131, 88, 108, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+
+.ealu{
+    background-color:transparent;
+    width:375px;
+    height:350px;
+}
+
+.ealu:hover{
+    background-color:rgba(131, 88, 108, 0.15);
+}
+
+.ealui{
+    background-color:transparent;
+    width:85%;
+    height:250px;
+    margin: 23px auto 10px auto;
+}
+
+.aludesc{
+    background-color:transparent;
+    width:85%;
+    height:25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size:16px;
+}
+
+.aludescd{
+    background-color:transparent;
+    width:85%;
+    height:25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size:16px;
+}
+
+.aludescl{
+    background-color:transparent;
+    width:8%;
+    height:25px;
+}
+
+.norm{
+    border-radius:0px;
+}
+
+#ctit{
+    text-align: center;
+    margin:15px;
+}
+
+#alaunetxt{
+    background-color:transparent;
+    width:300px;
+    height:350px;
+}
+
+#txtalaune{
+    background-color:transparent;
+    width:100%;
+    height:auto;
+    padding: 15px;
+}
+
+#stars{
+    background-color:transparent;
+    width:auto;
+    height:150px;
+    padding:10px;
+}
+
+.rating {
+    direction: rtl;
+ }
+ .rating a {
+    color: black;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+ }
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: #83586C;
+    cursor: pointer;
+ }
+
+ .commbut{
+    background-color:#83586C;
+    color:white;
+    margin: 0 auto;
+ }
+
+ .commbutb{
+    background-color:white;
+    color:#83586C;
+ }
+
+ .commbutb:hover{
+    background-color:#83586C;
+    color:white;
+ }
+
+ .commbut:hover{
+    background-color:white;
+    color:#83586C;
+ }
+
+ .commbutt{
+    background-color:#83586C;
+    color:white;
+    height: 0 auto;
+ }
+
+ .commbutt:hover{
+    background-color:white;
+    color:#83586C;
+ }
+
+ .commstyle{
+     border-color:#83586C;
+     width:400px;
+     margin:15px;
+ }
+
+ .card-header{
+    border-color:#83586C;
+    background-color:rgba(131, 88, 108, 0.15);
+ }
+
+ .card-title{
+    color:grey;
+ }
+
+ .card-text{
+    color:grey;
+ }
+
+ #flcomm{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .blocg{
+    background-color:rgba(131, 88, 108, 0.05);
+    width:98%;
+    height:auto;
+    margin: 0 auto;
+    border: 1px solid rgba(131, 88, 108, 0.05);
+    border-radius: 10px;
+    margin-bottom:30px;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titreg h2{
+    display: flex;
+    font-family: Inkland;
+    font-size: 65px;
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.blocgc{
+    display: flex;
+    justify-content: center;
+}
+
+.eventit{
+    font-size: 32px;
+}
+
+.jumbotron{
+    background-color:white;
+}
+
+.btn-link{
+    color:black;
+}
+
+.btn-link:hover{
+    color:black;
+}
+
+.srch{
+    border-color:#83586C;
+}
+
+.flex{
+    display: flex;
+    width:100%;
+    overflow: scroll;
+}
+
+.card-img-top{
+    height:250px;
+    border-radius:0px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: rgba(131, 88, 108, 0.05);
+    border-radius: 10px;
+}
+#map{
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    width: 90%;
+}
+.horairetel{
+    width: 100%;
+    display: flex;
+}
+#horaires{
+    display: flex;
+    align-self: flex-start;
+    width: 30%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: rgba(131, 88, 108, 0.05);
+    border-radius: 10px;
+}
+.boxhoraire{
+    width: 25%;
+}
+.titrehoraire{
+    width: 160px;
+    display: flex;
+    justify-content: flex-end;
+}
+.horaire{
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+}
+.horaire p{
+    display: flex;
+    justify-content: flex-end;
+}
+.boxtel{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: rgba(131, 88, 108, 0.05);
+    border-radius: 10px;
+}
+.telmail{
+    margin-top: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.telmail p{
+    align-self: flex-end;
+}
+#tel{
+    margin-right: 50px;
+}
+
+.navbar.navbar-2 .navbar-toggler-icon{
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+
+.titre{
+    background-color:transparent;
+    height:auto;
+    display: flex;
+    font-family: Inkland;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin-bottom:25px;
+}
+
+.disblock{
+    display: block;
+    width:30%;
+}
+
+.disblockd{
+    display: block;
+    width:60%;
+}
+
+#disblockd{
+    display: block;
+}
+
+@media screen and (min-width: 769px) and (max-width: 2560px) {
+    
+    .pos-f-t {
+      display:none;
+    }
+
+    #logoresp{
+        display: none;
+    }
+  }
+
+@media (max-width:1080px){
+    #respnone{
+        display: none;
+    }
+}
+
+@media (max-width:769px){
+
+    .nbp{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .hg{
+        padding:0;
+        margin-bottom:15px;
+    }
+
+    #pdppresent{
+        display: none;
+    }
+
+    .disblockd{
+        width:100%;
+    }
+
+    #respnone{
+        display: none;
+    }
+
+    .alaune{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .commstyle{
+        width:100%;
+    }
+
+    #text{
+        display: none;
+    }
+}
+
+@media (max-width:426px){
+    
+    #respsc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ealu{
+        width:400px;
+    }
+
+}
