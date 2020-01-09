@@ -33,7 +33,10 @@ body{
 
 
 .logo{
-    background-color: transparent;
+    background-image:url(../img/logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:230px;
     display: flex;
 }
 
@@ -106,6 +109,7 @@ a:hover{
     margin:0 auto;
     border-width: 2px;
     border-radius:10px;
+    position: relative;
 }
 img{
     border-radius:10px;
@@ -138,6 +142,11 @@ img{
     justify-content: flex-end;
 }
 #pdppresent{
+    background-image: url(../img/pdp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:500px;
+    height:500px;
     display: flex;
     align-self: center;
     border-radius:0px;
@@ -174,8 +183,10 @@ img{
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 90%;
-    height: 500px;
+    text-align: justify;
+    width: auto;
+    padding-left:15px;
+    margin-bottom:7px;
 }
 #present{
     display: flex;
@@ -195,7 +206,6 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 226px;
 }
 #button{
     font-family: "Roboto-Thin";
@@ -416,6 +426,8 @@ img{
     border-radius: 10px;
     margin-bottom:30px;
     padding:15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .titreg h2{
@@ -536,34 +548,109 @@ img{
 .navbar.navbar-2 .navbar-toggler-icon{
     background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
 }
-.navbar{
-    margin-bottom: 200px;
-    margin-left: 50px;
+
+.titre{
+    background-color:transparent;
+    height:auto;
+    display: flex;
+    font-family: Inkland;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin-bottom:25px;
 }
-@media screen and (min-width: 1024px) and (max-width: 2560px){
-    .navbar{
+
+.disblock{
+    display: block;
+    width:30%;
+}
+
+.disblockd{
+    display: block;
+    width:60%;
+}
+
+#disblockd{
+    display: block;
+}
+
+@media screen and (min-width: 769px) and (max-width: 2560px) {
+    
+    .pos-f-t {
+      display:none;
+    }
+
+    #logoresp{
         display: none;
     }
-    #logo2{
+  }
+
+@media (max-width:1080px){
+    #respnone{
         display: none;
     }
 }
-@media screen and (max-width: 1023px){
+
+@media (max-width:769px){
+
     .nbp{
         display: none;
     }
+
+    .logo{
+        display: none;
+    }
+
     .header{
         display: none;
     }
-    #logo2{
+
+    .hg{
+        padding:0;
+        margin-bottom:15px;
+    }
+
+    #pdppresent{
+        display: none;
+    }
+
+    .disblockd{
+        width:100%;
+    }
+
+    #respnone{
+        display: none;
+    }
+
+    .alaune{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .commstyle{
+        width:100%;
+    }
+
+    #text{
         display: none;
     }
 }
-@media screen and (max-width: 425px){
-    #logo1{
-        display: none;
+
+@media (max-width:426px){
+    
+    #respsc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    #logo2{
-        display: block;
+
+    .ealu{
+        width:400px;
     }
+
+}
+
+h1{
+    font-size:16px;
 }

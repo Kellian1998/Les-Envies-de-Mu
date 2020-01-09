@@ -14,16 +14,16 @@
 
   <?php include('header.php'); ?>
 
-    <div class="blocg">
+    <div class="blocg" id="disblockd">
     <div class="titreg"><h2>bracelets</h2></div><br>
 
-    <div class="flex">
+        <div class="flex">
 
-    <div class="col-sm-3">
+        <div class="col-sm-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="80%"></h5>
-        <p class="card-text">TITRE PRODUIT</p>
+        <h5 class="card-title"><div class="ealui"><img src="./img/bra/braunique.jpg" width="100%" height="80%"></h5>
+        <p class="card-text">BRACELETS - L'UNIQUE</p>
 <button type="button" class="btn commbutt" data-toggle="modal" data-target="#exampleModalScrollable">
   + INFO
 </button>
@@ -31,7 +31,7 @@
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">TITRE DU PRODUIT</h5>
+        <h5 class="modal-title" id="exampleModalScrollableTitle">BRACELETS - L'UNIQUE</h5>
         </button>
       </div>
       <div class="modal-body">
@@ -54,8 +54,8 @@
   <div class="col-sm-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="80%"></h5>
-        <p class="card-text">TITRE PRODUIT</p>
+        <h5 class="card-title"><div class="ealui"><img src="./img/bra/braindep2.jpg" width="100%" height="80%"></h5>
+        <p class="card-text">BRACELETS - L'INDEPENDANTE 2</p>
 <button type="button" class="btn commbutt" data-toggle="modal" data-target="#exampleModalScrollable">
   + INFO
 </button>
@@ -63,7 +63,7 @@
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">TITRE DU PRODUIT</h5>
+      <h5 class="modal-title" id="exampleModalScrollableTitle">BRACELETS - L'INDEPENDANTE 2</h5>
         </button>
       </div>
       <div class="modal-body">
@@ -87,8 +87,8 @@
   <div class="col-sm-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="80%"></h5>
-        <p class="card-text">TITRE PRODUIT</p>
+        <h5 class="card-title"><div class="ealui"><img src="./img/bra/brafidele3.jpg" width="100%" height="80%"></h5>
+        <p class="card-text">BRACELETS - LA FIDELE 3</p>
 <button type="button" class="btn commbutt" data-toggle="modal" data-target="#exampleModalScrollable">
   + INFO
 </button>
@@ -96,7 +96,7 @@
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">TITRE DU PRODUIT</h5>
+        <h5 class="modal-title" id="exampleModalScrollableTitle">BRACELETS - LA FIDELE 3</h5>
         </button>
       </div>
       <div class="modal-body">
@@ -119,8 +119,8 @@
   <div class="col-sm-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="80%"></h5>
-        <p class="card-text">TITRE PRODUIT</p>
+        <h5 class="card-title"><div class="ealui"><img src="./img/bra/bradelicate2.jpg" width="100%" height="80%"></h5>
+        <p class="card-text">BRACELETS - LA DELICATE 2</p>
 <button type="button" class="btn commbutt" data-toggle="modal" data-target="#exampleModalScrollable">
   + INFO
 </button>
@@ -128,7 +128,7 @@
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">TITRE DU PRODUIT</h5>
+        <h5 class="modal-title" id="exampleModalScrollableTitle">BRACELETS - LA DELICATE 2</h5>
         </button>
       </div>
       <div class="modal-body">
@@ -148,131 +148,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="80%"></h5>
-        <p class="card-text">TITRE PRODUIT</p>
-<button type="button" class="btn commbutt" data-toggle="modal" data-target="#exampleModalScrollable">
-  + INFO
-</button>
-<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">TITRE DU PRODUIT</h5>
-        </button>
-      </div>
-      <div class="modal-body">
-       PRIX : ...<br>
-       MATERIAUX : ...<br>
-       DISPONIBILITÉ : ...<br>
-       CODE PRODUIT : ...<br>
-       POID: ...<br>
-       COULEUR: ...<br>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">FERMER</button>
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="80%"></h5>
-        <p class="card-text">TITRE PRODUIT</p>
-<button type="button" class="btn commbutt" data-toggle="modal" data-target="#exampleModalScrollable">
-  + INFO
-</button>
-<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">TITRE DU PRODUIT</h5>
-        </button>
-      </div>
-      <div class="modal-body">
-       PRIX : ...<br>
-       MATERIAUX : ...<br>
-       DISPONIBILITÉ : ...<br>
-       CODE PRODUIT : ...<br>
-       POID: ...<br>
-       COULEUR: ...<br>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">FERMER</button>
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="80%"></h5>
-        <p class="card-text">TITRE PRODUIT</p>
-<button type="button" class="btn commbutt" data-toggle="modal" data-target="#exampleModalScrollable">
-  + INFO
-</button>
-<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">TITRE DU PRODUIT</h5>
-        </button>
-      </div>
-      <div class="modal-body">
-       PRIX : ...<br>
-       MATERIAUX : ...<br>
-       DISPONIBILITÉ : ...<br>
-       CODE PRODUIT : ...<br>
-       POID: ...<br>
-       COULEUR: ...<br>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">FERMER</button>
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="80%"></h5>
-        <p class="card-text">TITRE PRODUIT</p>
-<button type="button" class="btn commbutt" data-toggle="modal" data-target="#exampleModalScrollable">
-  + INFO
-</button>
-<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">TITRE DU PRODUIT</h5>
-        </button>
-      </div>
-      <div class="modal-body">
-       PRIX : ...<br>
-       MATERIAUX : ...<br>
-       DISPONIBILITÉ : ...<br>
-       CODE PRODUIT : ...<br>
-       POID: ...<br>
-       COULEUR: ...<br>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">FERMER</button>
-      </div>
-    </div>
-  </div>
-</div>
+ 
       </div>
     </div>
   </div>
@@ -284,3 +160,5 @@
   <?php include('footer.php'); ?>
 
 </body>
+
+</html>

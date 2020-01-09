@@ -14,7 +14,7 @@
 
   <?php include('header.php'); ?>
 
-    <div class="blocg">
+    <div class="blocg" id="disblockd">
     <div class="titreg"><h2>foire aux questions</h2></div><br>
     <div class="accordion" id="accordionExample">
   <div class="card">

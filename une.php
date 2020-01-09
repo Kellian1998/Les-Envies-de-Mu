@@ -1,51 +1,60 @@
-<div class="alaune">
+<div class="blocg" id="respsc">
 
-<div id="alaunetxt">
+<div class="disblock" id="respnone">
 
-<h2 class="titrepresent" id="ctit">les produits à la une</h2>
+<div class="titre" id="respnone">les produits à la une</div>
 
-<div id="txtalaune">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+<div class="textpresent" id="respnone">
+  
+Vous aimez l’originalité ?<br>
+Vous souhaitez être unique ?<br>
+Vous aimez les bijoux fantaisie de créateurs ?<br>
+Vous êtes à l’affût d’un bijou qui sorte de l’ordinaire et que personne n’a ?<br><br>
+Grâce aux Envies de Mû, vous trouverez le bijou qui va révéler votre personnalité !
+            
+</div>
 
 </div>
+
                 
     <div class="ealu">
 
-    <a href="#"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="100%"></div></a>
+    <a href="bagues.php"><div class="ealui"><img src="./img/bunique.jpg" width="100%" height="100%"></div></a>
 
     <div class="aludesc">
-    <div class="aludescl"><img src="./img/ic1.png" width="50%" height="70%" class="norm"></div>Catégorie
+    <div class="aludescl"><img src="./img/ic1.png" width="50%" height="70%" class="norm"></div>Bagues
     </div>
 
     <div class="aludescd">
-    <div class="aludescl"><img src="./img/ic2.png" width="50%" height="70%" class="norm"></div>Description
+    <div class="aludescl"><img src="./img/ic2.png" width="50%" height="70%" class="norm"></div>L'Unique
     </div>
 
     </div>
 
     <div class="ealu">
 
-    <a href="#"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="100%"></div></a>
+    <a href="bagues.php"><div class="ealui"><img src="./img/blibre.jpg" width="100%" height="100%"></div></a>
 
     <div class="aludesc">
-    <div class="aludescl"><img src="./img/ic1.png" width="50%" height="70%" class="norm"></div>Catégorie
+    <div class="aludescl"><img src="./img/ic1.png" width="50%" height="70%" class="norm"></div>Bagues
     </div>
 
     <div class="aludescd">
-    <div class="aludescl"><img src="./img/ic2.png" width="50%" height="70%" class="norm"></div>Description
+    <div class="aludescl"><img src="./img/ic2.png" width="50%" height="70%" class="norm"></div>La Libre
     </div>
 
     </div>
     
     <div class="ealu">
 
-    <a href="#"><div class="ealui"><img src="./img/bg.jpg" width="100%" height="100%"></div></a>
+    <a href="bouclesoreilles.php"><div class="ealui"><img src="./img/bodelicate.jpg" width="100%" height="100%"></div></a>
 
     <div class="aludesc">
-    <div class="aludescl"><img src="./img/ic1.png" width="50%" height="70%" class="norm"></div>Catégorie
+    <div class="aludescl"><img src="./img/ic1.png" width="50%" height="70%" class="norm"></div>Boucles d'Oreilles
     </div>
 
     <div class="aludescd">
-    <div class="aludescl"><img src="./img/ic2.png" width="50%" height="70%" class="norm"></div>Description
+    <div class="aludescl"><img src="./img/ic2.png" width="50%" height="70%" class="norm"></div>La Délicate
     </div>
 
     </div>

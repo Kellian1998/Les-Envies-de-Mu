@@ -1,10 +1,10 @@
-<div class="alaune">
+<div class="blocg" id="respsc">
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-      <h2 class="titrepresent" id="ctit">laissez un commentaire</h2>
+      <div class="titre">laissez un commentaire</div>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
